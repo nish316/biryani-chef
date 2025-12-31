@@ -200,4 +200,6 @@ class Level7:
             
         screen.blit(self.font_main.render(txt, True, col), (270, 250))
         screen.blit(self.font_info.render(fact, True, (200, 200, 200)), (120, 310))
-        screen.blit(self.font_info.render("Press SPACE to answer some questions and GET YOUR CERTIFICATE!!", True, (255, 255, 255)), (230, 400))
+        prompt_surf = self.font_info.render("Press SPACE to answer some questions and GET YOUR CERTIFICATE!!", True, (255, 255, 255))
+        prompt_x = (screen.get_width() // 2) - (prompt_surf.get_width() // 2)
+        screen.blit(prompt_surf, (prompt_x, 400))
