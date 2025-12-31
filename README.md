@@ -33,7 +33,7 @@ During this hackathon, the following critical issues were encountered and resolv
 1. **State Bleeding:** Fixed a transition "loop" where levels would skip instantly. Resolved by forcing a `ready_to_move` reset in the Engine.
 2. **Asset Mapping:** Resolved "Black Box" errors by implementing a filename translation layer (e.g., mapping `rice` logic to `basmati_rice.png`).
 3. **Visual Logic:** Fixed a `ValueError` in the dough seal rendering by utilizing `SRCALPHA` surfaces for transparency instead of RGBA tuples in draw calls.
-4. **UX Balancing:** Re-engineered Level 3 from an infinite clicker to a precise 12-click mechanic based on user feedback.
+4. **UX Balancing:** Re-engineered Level 3 from an infinite clicker to a precise 12-click mechanic based on user input.
 
 ## Installation & Running
 
