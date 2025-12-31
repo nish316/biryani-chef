@@ -13,7 +13,7 @@ class Level5:
         self.step = 0
         self.total_steps = 6
         self.heat_level = 2 
-        self.message = "Click to add the Yogurt!"
+        self.message = "Click to add the salt and yogurt!"
         
         self.simmer_timer = 0
         self.is_simmering = False
