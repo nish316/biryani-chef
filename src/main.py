@@ -31,7 +31,7 @@ def main():
     manager.add_state("LEVEL7", Level7())
     manager.add_state("QUIZ_LEVEL", QuizLevel())
     manager.add_state("WIN_SCREEN", WinScreen())
-    manager.set_state("LEVEL7")
+    manager.set_state("LEVEL1")
 
     running = True
     while running:
