@@ -1,7 +1,7 @@
 
-# Bombastic Biryani Chef by Nishka Komanduri
+# Biryani Chef by Nishka Komanduri
 
-**Bombastic Biryani Chef** is an educational, state-based cooking simulator built with Python and Pygame. It takes players through the 7-stage process of creating a authentic Paneer Dum Biryani, concluding with a Final Chef's Exam and certificate.
+**Biryani Chef** is an educational, state-based cooking simulator built with Python and Pygame. It takes players through the 7-stage process of creating a authentic Paneer Dum Biryani, concluding with a Final Chef's Exam and certificate.
 
 ## Architecture
 
